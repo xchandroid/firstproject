@@ -1,0 +1,25 @@
+<resources>
+
+    <style name="popmenu_animation" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/show</item>
+        <item name="android:windowExitAnimation">@anim/hide</item>
+    </style>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorPrimaryDark">@color/colorbar</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="txtSize" parent="TextAppearance.AppCompat.Widget.ActionBar.Subtitle.Inverse">
+       <item name="android:textSize">18sp</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+    <style name="shangxia" parent="android:Animation">
+    <item name="android:windowEnterAnimation">@anim/top_in</item>
+    <item name="android:windowExitAnimation">@anim/buottom_out</item>
+    </style>
+    <style name="popuAnim"  parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/popup_enter</item>
+        <item name="android:windowExitAnimation">@anim/popup_exit</item>
+    </style>
+</resources>

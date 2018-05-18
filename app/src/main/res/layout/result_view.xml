@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:background="@color/white"
+    android:layout_height="100dp">
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="模型"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:textSize="18sp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="确认"
+        android:id="@+id/close"
+        android:layout_gravity="bottom|center"
+        android:textSize="14sp"
+        android:background="@drawable/button_style"/>
+</FrameLayout>
